@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/************************************************************ CONTENIDO INDEPENDIENTE */
+.contenido-independiente{
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 0 auto;
+    padding: 15px;
+}
+.contenido-independiente .pronostico {
+    margin: 0;
+    padding: .3rem;
+    background-color: #efed8c;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.contenido-independiente .pronostico > h1,
+.contenido-independiente .pronostico-del-dia {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.contenido-independiente .pronostico-del-dia {
+    background: right/contain content-box border-box no-repeat
+        url('img/rain.svg') white;
+}
+.contenido-independiente .pronostico-del-dia > h2,
+.contenido-independiente .pronostico-del-dia > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+/***************************************************************************** SECCION*/
+.seccion{
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 15px;
+    margin: 0 auto;
+}
+/************************************************************************* NAVEGACION */
+.navegacion{
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 0 auto;
+    padding: 15px;
+}
+.navegacion nav {
+    border-bottom: 1px solid black;
+}
+
+.navegacion .crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navegacion .crumb {
+    display: inline-block;
+}
+
+.navegacion .crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+/***************************************************************** CONTENIDO SEPARADO */
+.contenido-separado{
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 0 auto;
+    padding: 15px;
+
+}
+.contenido-separado aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #b65c1b;
+    font-style: italic;
+    color: #b84d2d;
+}
+.contenido-separado aside > p {
+    margin: .5rem;
+}
+.contenido-separado p {
+    font-family: 'Fira Sans', sans-serif;
+}
+/************************************************************************* ENCABEZADO */
+.encabezado header.page-header {
+    background: no-repeat left/cover url(img/perritos.webp);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+}
+
+.encabezado header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;
+    margin: 2%;
+}
+
+.encabezado main {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+/******************************************************************************** PIE */
+.pie{
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 0 auto;
+    padding: 15px;
+}
+.pie article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.pie footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #b19a3d;
+    color: #fff;
+}
+/**************************************************************** CONTENIDO DOMINANTE */
+.dominante {
+    width: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 0 auto;
+    padding: 15px;
+}
+.dominante header {
+    font: bold calc(.025 * (100vw)) 'Arial', sans-serif;
+}
+
